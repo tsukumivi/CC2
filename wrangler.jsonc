@@ -2,7 +2,7 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "java-fieldnotes-learning-studio",
   "main": "cloudflare/index.ts",
-  "compatibility_date": "2026-10-13",
+  "compatibility_date": "2026-10-12",
   "workers_dev": true,
   "assets": {
     "directory": "./frontend/dist",
