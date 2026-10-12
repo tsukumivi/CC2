@@ -1,0 +1,12 @@
+{
+  "passed": false,
+  "security_concerns": [],
+  "logic_errors": [
+    "backend/learning.py:103-120; frontend/src/components/TaskPanel.tsx:27 — A failed explain or predict submission returns the reference answer, and the UI displays it, but the draft remains unassisted. Reproduction: submit a wrong prediction, read the displayed answer, edit the same draft to that answer, and submit again without using a hint or reference endpoint. The second attempt is recorded as independent and can complete the lesson. Mark subsequent submissions assisted after answer-revealing feedback, while preserving the original attempt’s status, or reveal the answer only through the assistance-marking reference flow.",
+    "backend/learning.py:132-145 — Draft saves and retry are not protected against stale writes. Reproduction: pause a save after it reads an assisted draft but before its upsert; call retry so it deletes the draft; then allow the save to finish. It recreates the old draft, and a fresh submission can inherit assistance or stale content. Add a draft generation/version that retry advances and saves must match, rejecting writes from an earlier generation."
+  ],
+  "suggestions": [
+    "backend/learning.py:108-112 — Prediction comparison strips leading and trailing whitespace, so a response with extra outer whitespace can pass despite prompts asking for an exact answer. Clarify this normalization in the task contract or narrow it to the intended newline handling."
+  ],
+  "summary": "Source-packet review only; I did not independently execute runtime tests. Two logic issues prevent a passing verdict."
+}

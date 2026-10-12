@@ -1,0 +1,102 @@
+{
+  "checked_at": "2026-10-11T21:56:53.924976+08:00",
+  "original_notes_checked": 9,
+  "all_original_notes_unchanged": true,
+  "canonical_css_matches_estate": true,
+  "source_files_scanned": 54,
+  "findings": [],
+  "note_hashes": {
+    "2026_CC2_Fundamentals-of-Programming.pdf": {
+      "sha256": "cb265a7aa58afea67828adf55f45d088935a6d34b49283c34a6131b3adee2a7c",
+      "matches_original": true
+    },
+    "ALgorithm_BSIT1-1.pdf": {
+      "sha256": "c8241f5d0cd4b0a2a3618d7708e48ff9897bf3deb171c6bff2c2ac049c506c0a",
+      "matches_original": true
+    },
+    "L2_ Anatomy of Basic Programming.pdf": {
+      "sha256": "90a11d224d15dc034e8a01de01ae2591a5ed1c92a8aab0e50448bf2f25f5f27c",
+      "matches_original": true
+    },
+    "L3_ Basic Java Operators.pdf": {
+      "sha256": "bd1e2068ad07686a3922522811cffc0ea5eb9fe28b1c462a6da8c5689a355ecb",
+      "matches_original": true
+    },
+    "L4_ Conditional Structures.pdf": {
+      "sha256": "a46038d1d4dac50e5c0cd814c43e80862a0d029913873d1787de05d4563b181f",
+      "matches_original": true
+    },
+    "Login (1).java": {
+      "sha256": "f8ebb73f0352797a86e3f09ef11c135a120256af907a01aef1053808688ec346",
+      "matches_original": true
+    },
+    "Menu.java": {
+      "sha256": "98b2133e68f168b874e982f2beeb91c73fe2ac953ff1ef38a0f7d1d4a2ce3099",
+      "matches_original": true
+    },
+    "MovieVerifier (1).java": {
+      "sha256": "d60953a14e5691302831dfe3f97685ef494dd9b95822f63add01cfb052c85e80",
+      "matches_original": true
+    },
+    "Ticket.java": {
+      "sha256": "9544713209af5f8d5f2164a8b82677c2fef409131ec062dd45967cfb17cc1621",
+      "matches_original": true
+    }
+  },
+  "source_hashes": {
+    "backend/learning.py": "e7ac9101b55e910e137fc4833b80a39f78c9976ce352c1f14a646a24e45d1d3c",
+    "backend/main.py": "f725003f1c4f0bfa2d765f25f57b5dbc45d6909d4383efe6cfe92af0b28b7087",
+    "backend/runner.py": "dca933b926efddf05ea78706aa991e09f95cb81244cd67ab4c9bf305288e5f3c",
+    "backend/workspaces.py": "d2096e6fac6f4473595b5dcb58b7cc0746da3fed51d75b1e41c14f9a6151428a",
+    "frontend/src/api.ts": "5bd6ca92f1bc03eb0d7fdc07c671bc841ddc43ea3550ce2ad2ab03741983c967",
+    "frontend/src/App.tsx": "6794db67657ac76a8572c4ea8d9c3a24e374182a8b88a6f578c6099519b79969",
+    "frontend/src/learning.ts": "760146bf40bc6826f633e650fcfa4ef5964a0478e194495dd04143528aa477b3",
+    "frontend/src/main.tsx": "90cbc4ae8a8e558a7a55fc9e6c52ad64b95775c38248aecc8563ce8677f8f902",
+    "frontend/src/sampleCourse.ts": "8ce7eb702ea06f38caf26d16860cce9608b65ce747e61447c11f0243f7cde936",
+    "frontend/src/Studio.tsx": "9388b234a8292ab583a68fc9d3f45b66c52d0d585fa7587e908808e1f9c822cf",
+    "frontend/src/studioApi.ts": "5935dbe553a756e80087c00cc1129f06a60889f2bd51d6fb002bc93fed8e388d",
+    "frontend/src/studioTypes.ts": "8e104abe5c9e40a09e05258540a42514ce118ecc13faa39d1c82b320757a92c2",
+    "frontend/src/types.ts": "dcd83230e7649f6df4783b07fea57f8194b86302f3d381e457669d5eb57d4318",
+    "frontend/src/components/Bench.tsx": "59898f51d988ca453854d027af57fd1a9f29fcd88f813186c92cc2c6ba869a65",
+    "frontend/src/components/CodeEditor.tsx": "644d43557d0ee96723c4dba8e06d4ba6c79384074eacc1364133a5b047804d31",
+    "frontend/src/components/ReviewerVisual.tsx": "39570f8119ed5723c7f48a6897df855f15f62f11c52bc93e209cdc6bce5af12f",
+    "frontend/src/components/TaskPanel.tsx": "49f0d4b27e7934485f43c9892b4ebf651429d3e347da13deb6a5e42c0f873344",
+    "frontend/src/components/VisualModel.tsx": "9395a3de4171806dda8afd7a0fe90fb30ab0d67a2a29b4211090d24754c591d2",
+    "frontend/src/styles/app.css": "86eb428216b65eae5eceb24c6b1bade938a607e9449bcef3e72b68d950422d18",
+    "frontend/src/styles/starter.css": "ffcb23ae0ba65a05aa65ee6465122497b2fcaa007633e7a2de62eeb3bc536c89",
+    "frontend/src/styles/studio.css": "72047ece60b4547bd4e6e8224f39e6afcd90b3582452492e979aa1cf167413d0",
+    "frontend/src/styles/uika-canonical.css": "08c84d030896d1de0d69224bf02ffd15e4e4b86c636e3c1daae0d56f7e82e2c0",
+    "content/authoring.py": "5ac766823ab607085b94431a26223a38fd5a3d79d84a04938fa86656f94d5035",
+    "content/build_course.py": "a7bdee1821e168671596a47e11a28513b05df7e40304fb640da8d978c7bafad9",
+    "content/course.json": "0be1978f116038cfc1d0ac5549f0b596f5a9e881c4d2189c68d9ba2522f7d931",
+    "content/source-metadata.json": "1431cce3f4d57a57f68c14960400931752dc2746318873466f854ee6755bf787",
+    "content/transfer.py": "0ea47b9f2ca0b409f660380658e855e4f44dc5413be1dc733fac7ff0393c68bf",
+    "content/units/decisions.py": "32be9ce7b44298626991943e1ce11585feb7c461cb606d435f495ad8e2578506",
+    "content/units/first_success.py": "94e5904c514fa738f424531298ba308ace04492979623e589f1e38c859d03d19",
+    "content/units/input_text.py": "19003c4d92b0f8784740f970c9f26cb8e6e0bc4c50e152d9992a8154a71d5a55",
+    "content/units/persistence.py": "bb36a418500c027f299716fd334220d1249d70e4433d61c1f62e0e8a82925b42",
+    "content/units/records.py": "1222fc137a8a62303f41c7720c74c850bf9c47bb89e92d5819390d1602a456bc",
+    "content/units/repetition.py": "01b2c5adba1eedf48f2d2c59b2525263cb4a123d1b50ac6c8863aa40d87fee52",
+    "content/units/structure.py": "8823941b381aaccad0364ec94779c49c2ae8a4727459016e99755d6de0981611",
+    "content/units/values.py": "dc896bb69910585d39011b96a988b890958e5102e61ece680c7a32c02068be0f",
+    "scripts/browser_qa.py": "93a24a93ca219f9945633edda06d4d336b4c9f16e09aadf65ff6adf317a90156",
+    "scripts/build_review_packet.py": "1e961436b1923ec35da0cb15c27899c0254ada2d56398ec386bd683496e4fec7",
+    "scripts/editor_qa.py": "9edbc299ea8a1dd667d128ef3a6d3d05662014c2ab6afd6cbb3240b762085383",
+    "scripts/export_release.py": "a79983644a7deab7974f96f82bf3743008f493a9b93cef3a02bb87b0f7d4a054",
+    "scripts/review_fixes_browser.py": "e14c9842afdec2b85af74d5a54e2db00ed785d07124eec5262684deeac372752",
+    "scripts/verify_course.py": "b94a0a10b221b09337c7cd9325757957442fb552d861adbf84cc9482aefc467e",
+    "scripts/verify_portability.py": "36afa85cf7e29b902b287f978f7355cc7b85d7565fd20584ad64ae2662d32bfd",
+    "tests/conftest.py": "0210b25832f052ca7aedc03a7484aaabee83beee56e9422aa7e08b2159beace5",
+    "tests/test_acceptance.py": "dc9619b80dfdc4a348fe3d860acd2b81d165b1b20bc4d371b486d8436c531a7a",
+    "tests/test_corpus.py": "b521f2a14a3722898db8f21237315141d056d378344b634b3838d9d17ff9e402",
+    "tests/test_edges.py": "ccb8d4b4862d38e07ab14a1100eb1119464af97d25b416c57060c938cd7fb21f",
+    "tests/test_learning.py": "61f644f415b82d6833c78efc71a006b893c5450c491f8b6763a37248ea056663",
+    "tests/test_projects.py": "3842f7c2cc46769241ddf24dcacadf32a094007880d7aa853c6071bb279a67bf",
+    "tests/test_qa_guard.py": "fb4c7dcfe9dcb4a5d0e9c8813115de7f647595832cf2a162d1adbd987652d663",
+    "tests/test_resources.py": "da2031605a3ebf3fcbe8bc2719e92ef4232c189aa2a24739edfc4a0213cf9354",
+    "tests/test_review_fixes.py": "82a70058c871c892213d86c3f760384307631c02ab6bc3838bc5bf0c462b57f6",
+    "tests/test_runner.py": "bd42a8d6e60068eada183053f98af559c5d420de3401ee66666a34e7dd8e624b",
+    "tests/test_transfer.py": "f133d7b7afd05c8f9a00f35a5fa80e725f24d4703452600d903e44216cc56b9a",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

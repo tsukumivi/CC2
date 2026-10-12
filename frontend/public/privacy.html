@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0913">
+  <title>Privacy & Data — Java Fieldnotes</title>
+  <style>
+    :root{color-scheme:dark;--ink:#f4f0e8;--muted:#b5adbd;--paper:#100d18;--panel:#191522;--line:#383044;--accent:#d5a8ff;--warning:#f0c58c;font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 78% 0%,#29203b 0,transparent 48%),var(--paper);color:var(--ink)}main{width:min(820px,calc(100% - 36px));margin:0 auto;padding:48px 0 80px}a{color:var(--accent)}.eyebrow{font-size:.77rem;letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}h1{font-size:clamp(2.2rem,7vw,4rem);line-height:1.03;margin:.5rem 0 1rem}h2{font-size:1.3rem;margin:2.2rem 0 .5rem}p,li{color:var(--muted)}.panel{background:color-mix(in srgb,var(--panel) 92%,transparent);border:1px solid var(--line);border-radius:18px;padding:22px;margin:18px 0}.panel strong{color:var(--ink)}.notice{border-left:3px solid var(--warning)}.back{display:inline-block;margin-bottom:2rem;text-decoration:none}.small{font-size:.9rem}footer{padding-top:28px;border-top:1px solid var(--line);margin-top:40px;color:var(--muted)}
+  </style>
+</head>
+<body><main>
+  <a class="back" href="/">← Back to Java Fieldnotes</a>
+  <p class="eyebrow">Java Fieldnotes · Public pilot</p>
+  <h1>Privacy & data</h1>
+  <p>This site has no sign-in and does not ask for your name or email. Its learning and project features use a private guest workspace attached to your browser.</p>
+
+  <section class="panel"><h2>What is saved</h2>
+    <p><strong>In your browser:</strong> theme preference and working drafts are cached in browser storage so they remain available as you move between lessons.</p>
+    <p><strong>On Cloudflare:</strong> lesson progress, submitted answers and code, attempt history, saved Java projects and project data files are stored in D1. A random, HTTP-only cookie connects your browser to that workspace. It is not an account and does not sync between browsers or devices. The source PDFs are public files in the project’s GitHub repository and open from GitHub when selected.</p>
+    <p>You can export the hosted workspace or erase it from <a href="/?view=projects">Project Shelf</a>. Erasing also clears this app’s browser drafts. If you clear cookies first, the old workspace cannot be recovered or erased from that browser; unused guest workspaces are deleted after 90 days without a visit. The guest cookie itself expires after one year.</p>
+  </section>
+
+  <section class="panel"><h2>When Java code runs</h2>
+    <p>When you select Run, your Java source, standard input and any saved project data files needed for that run are sent from this site to SandboxAPI through RapidAPI. When you select Check, your Java source and the task’s declared test inputs are sent. The API key stays on the server and is not sent to your browser.</p>
+    <p>SandboxAPI documents Java 21 execution in a per-request gVisor container with network egress disabled and no persistent storage for synchronous runs. Those are the provider’s descriptions of its service; RapidAPI and SandboxAPI are separate third parties with their own terms and data practices. Do not enter passwords, API keys, private records, or other sensitive information into the code bench.</p>
+    <p>The shared site is configured for at most 500 Java runs per calendar month on the free plan. Compiles that fail and timed-out runs count. Running may be rate limited as well. Each guest workspace can store up to 200 assessment attempts and 20 saved projects.</p>
+  </section>
+
+  <section class="panel notice"><h2>Class-note PDFs are public</h2>
+    <p>The original PDFs listed in the Source Library are published as downloadable files with the site. One included class PDF contains an instructor contact email. Share the public URL only if you have permission to publish these materials and are comfortable exposing that contact information.</p>
+  </section>
+
+  <section class="panel"><h2>Free-hosting limits</h2>
+    <p>The public pilot uses Cloudflare Workers Free and D1 Free limits, plus SandboxAPI Basic’s free execution allowance. Requests may fail when a free quota is exhausted; the project is not configured for paid overages and does not promise an availability level.</p>
+    <p class="small">Provider references: <a href="https://sandboxapi.dev/docs/">SandboxAPI execution and security documentation</a>, <a href="https://sandboxapi.dev/pricing/">SandboxAPI plans and quotas</a>, <a href="https://developers.cloudflare.com/workers/platform/pricing/">Cloudflare Workers Free limits</a>, and <a href="https://developers.cloudflare.com/d1/platform/pricing/">Cloudflare D1 Free limits</a>.</p>
+  </section>
+
+  <footer><p>Privacy questions or corrections: contact the site owner through the project’s public GitHub repository. This page describes the Java Fieldnotes pilot and does not replace the terms or privacy notices of its hosting and execution providers.</p></footer>
+</main></body></html>

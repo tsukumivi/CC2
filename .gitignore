@@ -1,0 +1,20 @@
+# Local data and generated dependencies
+.venv/
+frontend/node_modules/
+.pnpm-store/
+.tmp/
+.wrangler/
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+*.sqlite3
+*.db
+
+# Generated TypeScript build metadata
+*.tsbuildinfo
+data/
+Java-Fieldnotes-Learning-Studio-Updated-*.zip

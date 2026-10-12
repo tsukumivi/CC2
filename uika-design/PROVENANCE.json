@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "exportDate": "2026-10-11",
+  "preparedBy": "codex.tower",
+  "authorization": "Owner requested a scoped export for a friend's agent; catalog unchanged.",
+  "sources": {
+    "canonical": {
+      "path": "design/uika-canonical.css",
+      "sha256": "08c84d030896d1de0d69224bf02ffd15e4e4b86c636e3c1daae0d56f7e82e2c0",
+      "relationship": "Exact byte snapshot; token authority"
+    },
+    "recipes": {
+      "path": "manual.html",
+      "sha256": "9910f7f71d5440127cb07a80af6943e216c6a5afe91d8f45c6d667dd420a5953",
+      "relationship": "Adapted component grammar; inline manual tokens not used"
+    }
+  },
+  "scope": "Core web styles only; canonical tokens and neutral implementation recipes.",
+  "excluded": [
+    "agent configuration",
+    "estate configuration",
+    "credentials",
+    "personas",
+    "ledgers",
+    "artwork",
+    "voices",
+    "music",
+    "font binaries",
+    "reference media",
+    "theme toolkits"
+  ],
+  "catalogStatusAtExport": {
+    "id": "uika-tokens",
+    "audience": "personal",
+    "status": "candidate",
+    "promoted": false
+  },
+  "dependencies": {
+    "preview": "none; offline system font fallbacks",
+    "verifier": "Node.js 22+ built-ins"
+  },
+  "rights": "No third-party artwork, character, logo, music, voice, trademark or font redistribution rights granted."
+}

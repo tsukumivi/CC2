@@ -1,0 +1,103 @@
+import type { Course, Concept } from './types'
+
+const concepts: Concept[] = [
+  {
+    id: 'read-input', title: 'Read input with Scanner', summary: 'Follow a value from the keyboard into a Java variable.', source_file: 'MovieVerifier (1).java',
+    source_concepts: ['Scanner', 'nextLine', 'nextInt'], visual: 'input',
+    explanation: ['A program can pause for a person to enter a value. A Scanner reads that text from System.in.', 'Choose a read method that matches what you need: nextLine() reads a whole line as text, while nextInt() reads an integer token.'],
+    worked_example: { code: 'Scanner input = new Scanner(System.in);\nSystem.out.print("How old are you? ");\nint age = input.nextInt();', note: 'The variable age receives the integer typed at the prompt.' },
+    trace: 'The user types 17 and presses Enter. nextInt() returns the number 17, so age stores 17.',
+    recall_question: 'Which Scanner method reads a whole line as text?',
+    activity: 'Ask for a person’s name, then print a greeting that includes it.',
+  },
+  {
+    id: 'types-variables', title: 'Variables and types', summary: 'Name and store the pieces of information a program needs.', source_file: 'Ticket.java',
+    source_concepts: ['int', 'double', 'String', 'assignment'], visual: 'variables',
+    explanation: ['A variable is a named place where a program can keep a value. Its type describes which kind of value it can hold.', 'Use int for whole numbers, double for decimal values, and String for text. Java checks that the assigned value fits the declared type.'],
+    worked_example: { code: 'int age = 18;\ndouble price = 12.50;\nString seat = "B4";', note: 'Each declaration names a type and an initial value.' },
+    trace: 'After int tickets = 2;, tickets stores the whole-number value 2. Assigning tickets = tickets + 1; changes it to 3.',
+    recall_question: 'Which type would you choose for a price that can include cents?',
+    activity: 'Represent a ticket quantity, ticket price, and seat label with appropriate variables.',
+  },
+  {
+    id: 'arithmetic-integer-division', title: 'Arithmetic and expressions', summary: 'Combine values to calculate totals and understand integer division.', source_file: 'Menu.java',
+    source_concepts: ['addition', 'multiplication', 'integer division'], visual: 'arithmetic',
+    explanation: ['Expressions combine values with operators and produce a result. Java follows operator precedence: multiplication and division happen before addition and subtraction unless parentheses say otherwise.', 'When both sides of / are integers, Java drops the fractional part. Convert to double or use a decimal operand when the fractional answer matters.'],
+    worked_example: { code: 'int subtotal = 3 * 125;\ndouble tax = subtotal * 0.12;\ndouble total = subtotal + tax;', note: 'The decimal operand 0.12 makes tax a decimal calculation.' },
+    trace: 'In Menu.java the “Average” uses total / count with integer values. If the result is 7.5, int division stores 7, so the displayed average is truncated.',
+    recall_question: 'What does Java keep when dividing two int values and the answer has a fraction?',
+    activity: 'Build a small receipt that multiplies item price by quantity and adds a tax rate.',
+  },
+  {
+    id: 'comparisons-strings', title: 'Comparisons and String equality', summary: 'Turn values into true/false decisions reliably.', source_file: 'MovieVerifier (1).java',
+    source_concepts: ['==', '>=', 'equalsIgnoreCase'], visual: 'comparison',
+    explanation: ['Comparison operators such as >= and == produce a boolean: true or false. A conditional uses that result to choose a path.', 'For String content, use equals() or equalsIgnoreCase(). The == operator checks whether two references point to the same object, not whether their text is equal.'],
+    worked_example: { code: 'boolean adult = age >= 18;\nboolean formatMatches = movieType.equalsIgnoreCase("2D");', note: 'Both expressions produce a boolean that an if statement can use.' },
+    trace: 'If movieType contains "2d", equalsIgnoreCase("2D") evaluates to true; ordinary case-sensitive equals("2D") would be false.',
+    recall_question: 'Why should you use equals() instead of == to compare String contents?',
+    activity: 'Read a movie format and make the comparison work for both upper- and lower-case input.',
+  },
+  {
+    id: 'if-else-branches', title: 'if / else and nested decisions', summary: 'Make the program follow a clear path based on conditions.', source_file: 'MovieVerifier (1).java',
+    source_concepts: ['if', 'else', 'nested if'], visual: 'branch',
+    explanation: ['An if statement evaluates one boolean condition. If it is true, Java executes its body; otherwise Java skips to the else path, if there is one.', 'A nested decision asks another question inside a branch. Test the outer question first, then only evaluate the inner choice along the path that reaches it.'],
+    worked_example: { code: 'if (age >= 18) {\n  System.out.println("Adult ticket");\n} else {\n  System.out.println("Youth ticket");\n}', note: 'Exactly one branch runs for this if/else pair.' },
+    trace: 'For age = 15, age >= 18 is false. Control skips the adult line and prints “Youth ticket”.',
+    recall_question: 'When the if condition is false, which branch runs?',
+    activity: 'Create an age check that displays a different result on each path.',
+  },
+  {
+    id: 'switch-selection', title: 'switch for menu choices', summary: 'Match one choice against several named cases.', source_file: 'Menu.java',
+    source_concepts: ['switch', 'case', 'break', 'default'], visual: 'switch',
+    explanation: ['A switch compares one value against a list of cases. Each matching case runs until a break or the end of the switch.', 'A default branch handles values that did not match any listed case, which makes menu behavior easier to reason about.'],
+    worked_example: { code: 'switch (choice) {\n  case 1: System.out.println("Deposit"); break;\n  case 2: System.out.println("Withdraw"); break;\n  default: System.out.println("Unknown choice");\n}', note: 'break prevents execution from falling into the next case.' },
+    trace: 'When choice is 2, case 2 prints “Withdraw” and break exits the switch.',
+    recall_question: 'What is the purpose of break in this menu switch?',
+    activity: 'Add a third menu choice and a default message for invalid choices.',
+  },
+  {
+    id: 'validation-methods', title: 'Validation and returning early', summary: 'Reject invalid data before it reaches the main workflow.', source_file: 'Login (1).java',
+    source_concepts: ['guard clause', 'return', 'validation'], visual: 'validation',
+    explanation: ['Validate data near the point where it enters. A guard clause checks a bad or unsupported case first and returns early, leaving the main path less nested.', 'Validation logic improves correctness, but a hardcoded password in a classroom example is not real authentication or secure storage.'],
+    worked_example: { code: 'if (age < 0) {\n  System.out.println("Age cannot be negative");\n  return;\n}\nSystem.out.println("Age accepted");', note: 'return stops the current method before the normal path.' },
+    trace: 'For age = -2, the condition age < 0 is true, the message prints, and return prevents “Age accepted” from appearing.',
+    recall_question: 'What does return do when this guard condition is true?',
+    activity: 'Add a guard clause that rejects a negative amount before changing a balance.',
+  },
+  {
+    id: 'workflow-projects', title: 'Combine concepts into workflows', summary: 'Connect input, decisions, calculations, and output in a complete program.', source_file: 'Ticket.java',
+    source_concepts: ['decomposition', 'program flow', 'output'], visual: 'workflow',
+    explanation: ['A small program can be understood as a data flow: collect input, validate it, choose a path, calculate, then show a result.', 'Break a workflow into steps and keep each decision close to the values it needs. This makes it easier to trace and debug.'],
+    worked_example: { code: 'read ticket type\nvalidate ticket count\ncalculate subtotal\nprint receipt', note: 'Write the steps in plain language before turning them into Java statements.' },
+    trace: 'Ticket.java reads a quantity, calculates a cost, and prints the resulting amount. Ask what happens when the quantity is invalid before trusting the total.',
+    recall_question: 'Which should happen before calculating the total: validating the quantity or printing the receipt?',
+    activity: 'Build a ticket receipt with a chosen ticket type, a quantity, and a final total.',
+  },
+]
+
+export const sampleCourse: Course = {
+  id: 'java-foundations',
+  title: 'Java Foundations from Your Notes',
+  description: 'A visual, practice-first path through the Java ideas already appearing in your class examples.',
+  source_files: ['Login (1).java', 'Menu.java', 'MovieVerifier (1).java', 'Ticket.java'],
+  modules: [
+    { id: 'read-and-store', title: 'Read & store information', summary: 'Follow values into variables and calculate with them.', concepts: concepts.slice(0, 3) },
+    { id: 'make-decisions', title: 'Make decisions', summary: 'Turn comparisons into clear control flow.', concepts: concepts.slice(3, 7) },
+    { id: 'build-workflows', title: 'Build a complete workflow', summary: 'Combine the pieces in a small useful program.', concepts: concepts.slice(7) },
+  ],
+  reviewer: {
+    title: 'Java Foundations Review',
+    purpose: 'Start with what you remember. Take one question at a time, try an answer in your own words, then reveal the explanation when you are ready. Open a related lesson whenever you want another example.',
+    questions: [
+      { id: 'review-memory-slots', concept_id: 'types-variables', prompt: 'For the declaration int tickets = 2;, identify the type, variable name, and value. What would change if the value were 2.5?', answer: 'The type is int, the name is tickets, and its current value is 2. An int stores whole numbers, so 2.5 would not fit; use double for a fractional value.', visual: { kind: 'memory_slots', slots: [{ type: 'int', name: 'tickets', value: '2' }, { type: 'double', name: 'price', value: '12.50' }, { type: 'String', name: 'seat', value: '"B4"' }] } },
+      { id: 'review-input-flow', concept_id: 'read-input', prompt: 'A person types Mina and presses Enter. Describe how Scanner.nextLine() can place that text in a String variable.', answer: 'Create a Scanner connected to System.in, call nextLine(), and assign its returned text to a String variable, such as String name = input.nextLine().', visual: { kind: 'flow', steps: ['Keyboard line: Mina', 'Scanner.nextLine()', 'String name: "Mina"'], caption: 'Scanner returns the typed line; assignment stores that returned text.' } },
+      { id: 'review-calculation-flow', concept_id: 'arithmetic-integer-division', prompt: 'What value does int average = 15 / 2; store? Explain why it is different from 7.5.', answer: 'It stores 7. Both operands are ints, so Java performs integer division and discards the fractional part. Use a decimal operand or a double calculation to keep 7.5.', visual: { kind: 'calculation_flow', operands: ['15', '2'], operator: '÷', result: '7', caption: 'With two int operands, the fractional part is discarded.' } },
+      { id: 'review-string-comparison', concept_id: 'comparisons-strings', prompt: 'If movieType contains "2d", what does movieType.equalsIgnoreCase("2D") return? Why is == not the right content check?', answer: 'equalsIgnoreCase returns true because the text matches without considering letter case. == checks whether two references identify the same object, not whether their String contents match.', visual: { kind: 'branch', condition: 'equalsIgnoreCase("2D")', input: 'movieType = "2d"', true_path: 'Content matches', false_path: 'Content differs' } },
+      { id: 'review-if-branch', concept_id: 'if-else-branches', prompt: 'An if/else checks age >= 18. Trace the result when age is 15 and name the branch that runs.', answer: '15 >= 18 is false, so Java skips the if body and runs the else branch. Only the selected branch executes.', visual: { kind: 'branch', condition: 'age >= 18', input: 'age = 15', true_path: 'Adult ticket', false_path: 'Youth ticket' } },
+      { id: 'review-switch-routes', concept_id: 'switch-selection', prompt: 'A switch uses choice = 2 with cases 1 and 2, each ending in break. Which route runs, and what does break do?', answer: 'Case 2 runs. Its break exits the switch so execution does not fall through into another case. The default route is for values that match no case.', visual: { kind: 'switch_routes', selector: 'choice = 2', routes: [{ case: '1', output: 'Deposit' }, { case: '2', output: 'Withdraw' }, { case: 'default', output: 'Unknown choice' }] } },
+      { id: 'review-validation-return', concept_id: 'validation-methods', prompt: 'A program checks if amount < 0, prints an error, and returns. What happens for -4? What happens to the normal path?', answer: 'The condition is true, so the error is printed and return exits the current method. The normal path after the guard does not run.', visual: { kind: 'branch', condition: 'amount < 0', input: 'amount = -4', true_path: 'Print error → return', false_path: 'Continue workflow' } },
+      { id: 'review-program-workflow', concept_id: 'workflow-projects', prompt: 'Put these steps in a safe order: calculate a ticket total, read quantity, print receipt, validate quantity. Why?', answer: 'Read quantity → validate quantity → calculate the total → print the receipt. Validate before calculation so an invalid quantity cannot flow into the result.', visual: { kind: 'flow', steps: ['Read quantity', 'Validate quantity', 'Calculate total', 'Print receipt'], caption: 'Validation protects later calculations and output.' } },
+    ],
+  },
+}
+

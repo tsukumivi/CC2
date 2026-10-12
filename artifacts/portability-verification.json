@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "compiler": "javac 21.0.12.1",
+  "no_http_server_required": true,
+  "compiled_filename": "Main.java",
+  "results": [
+    {
+      "case": "save",
+      "passed": true,
+      "actual": {
+        "exit_code": 0,
+        "timed_out": false,
+        "stdout": "Added\r\nSaved\r\nBye\r\n",
+        "stderr": "",
+        "output_truncated": false
+      },
+      "expected_stdout": "Added\nSaved\nBye\n"
+    },
+    {
+      "case": "restart",
+      "passed": true,
+      "actual": {
+        "exit_code": 0,
+        "timed_out": false,
+        "stdout": "Orbit|2\r\nBye\r\n",
+        "stderr": "",
+        "output_truncated": false
+      },
+      "expected_stdout": "Orbit|2\nBye\n"
+    },
+    {
+      "case": "native saved file",
+      "passed": true,
+      "actual": "Orbit|2\n"
+    },
+    {
+      "case": "corrupt file is retained",
+      "passed": true,
+      "actual": {
+        "exit_code": 0,
+        "timed_out": false,
+        "stdout": "Load failed\r\n",
+        "stderr": "",
+        "output_truncated": false
+      },
+      "file_after_run": "Orbit|bad\n"
+    }
+  ]
+}

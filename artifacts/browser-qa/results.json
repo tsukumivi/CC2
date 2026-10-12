@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "checks": [
+    "Production build loads; real course and local JDK available.",
+    "Prediction draft survives navigation and full reload; no answer displayed first.",
+    "Wrong prediction fails; a fresh independent retry passes and history is saved.",
+    "Real Java wrong-output grading fails; correct output plus all core requirements advances route.",
+    "Both actual submitted Java source and grading evidence remain in attempt history.",
+    "Explicit reference marks assistance and cannot establish independent mastery.",
+    "A zero-result review filter shows an honest empty state.",
+    "Saved project compiles/runs capstone, persists records.txt and loads it in a separate JVM.",
+    "Imported corrupt data causes truthful load failure and is not overwritten.",
+    "Named source saves to SQLite and reopens through the project shelf.",
+    "Planning lesson is language-independent; numbered branch model and original local PDF work.",
+    "Canonical light/dark theme choice survives reload; local font files load.",
+    "All six views fit a 390px viewport without page-level horizontal overflow.",
+    "Keyboard skip link moves focus to main content.",
+    "Offline/API failure is explicit, with no fallback fake course or progress."
+  ],
+  "page_errors": [],
+  "duration_seconds": 46.66
+}

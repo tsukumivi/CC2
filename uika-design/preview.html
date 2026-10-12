@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en" data-face="sumimi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Uika design handoff preview</title>
+  <link rel="stylesheet" href="uika-canonical.css">
+  <link rel="stylesheet" href="starter.css">
+</head>
+<body class="uika-surface">
+<main class="uika-shell">
+  <div class="uika-toolbar">
+    <p class="uika-eyebrow">Design specimen · <span id="face-name">sumimi / light</span></p>
+    <button class="uika-button" id="theme" type="button" aria-pressed="false">Dark theme</button>
+  </div>
+  <h1 class="uika-title">A quiet stage for useful work.</h1>
+  <p class="uika-muted">Two faces, one token source. This example runs entirely offline with system font fallbacks.</p>
+  <div class="uika-grid">
+    <section class="uika-panel uika-panel--callout">
+      <h2>Surface and type</h2>
+      <p>Gold marks the primary accent. Lavender carries information. Readable text stays neutral.</p>
+      <p><span class="uika-chip">Information</span> <code class="uika-code">--bg-panel</code></p>
+      <div class="uika-swatches" aria-label="Accent samples">
+        <span class="uika-swatch" style="background:var(--gold)" role="img" aria-label="Gold"></span>
+        <span class="uika-swatch" style="background:var(--lavender)" role="img" aria-label="Lavender"></span>
+        <span class="uika-swatch" style="background:var(--marigold)" role="img" aria-label="Marigold"></span>
+        <span class="uika-swatch" style="background:var(--sage)" role="img" aria-label="Sage"></span>
+      </div>
+    </section>
+    <section class="uika-panel uika-panel--warn">
+      <h2>Explicit status</h2>
+      <p>Accent borders accompany words, so status can be understood without color.</p>
+      <p><span class="uika-pill uika-pill--ok">Ready</span> <span class="uika-pill uika-pill--warn">Needs review</span></p>
+      <label class="uika-field" for="label">Project label
+        <input class="uika-input" id="label" type="text" placeholder="Your project name">
+      </label>
+    </section>
+  </div>
+  <section class="uika-panel">
+    <h2>Ledger grammar</h2>
+    <div class="uika-table-wrap" tabindex="0" role="region" aria-label="Design token ledger">
+      <table class="uika-ledger">
+        <thead><tr><th scope="col">Role</th><th scope="col">Token</th><th scope="col">Application</th></tr></thead>
+        <tbody>
+          <tr><td>Body</td><td><code>--font-brand</code></td><td>Outfit with sans-serif fallback</td></tr>
+          <tr><td>Display</td><td><code>--font-display</code></td><td>Cinzel with serif fallback</td></tr>
+          <tr><td>Data</td><td><code>--font-mono</code></td><td>JetBrains Mono with monospace fallback</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+  <p class="uika-muted">Canonical palette and motion; optional component recipes. No media or font downloads.</p>
+</main>
+<script>
+  const button = document.getElementById('theme');
+  button.addEventListener('click', () => {
+    const dark = document.documentElement.dataset.face !== 'doloris';
+    document.documentElement.dataset.face = dark ? 'doloris' : 'sumimi';
+    button.setAttribute('aria-pressed', String(dark));
+    document.getElementById('face-name').textContent = dark ? 'doloris / dark' : 'sumimi / light';
+  });
+</script>
+</body>
+</html>

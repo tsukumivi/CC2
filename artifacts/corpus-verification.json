@@ -1,0 +1,4107 @@
+{
+  "compiler": "javac 21.0.12.1",
+  "modules": 8,
+  "concepts": 42,
+  "tasks": 136,
+  "unique_compilable_sources": 125,
+  "references": 52,
+  "examples": 38,
+  "executed_checks": 255,
+  "passed": true,
+  "duration_seconds": 239.72,
+  "results": [
+    {
+      "id": "java-program-skeleton-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Hello, Java!\r\n",
+      "expected_stdout": "Hello, Java!\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "output-and-comments-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Ticket: Standard\r\nTotal: 300\r\n",
+      "expected_stdout": "Ticket: Standard\nTotal: 300\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "compiler-diagnostics-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Fixed\r\n",
+      "expected_stdout": "Fixed\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "types-variables-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "600\r\n",
+      "expected_stdout": "600\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "identifiers-and-naming-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "8\r\n",
+      "expected_stdout": "8\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "escape-sequences-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "ITEM\tPRICE\r\nTea\t120\nCoffee\t150\r\n",
+      "expected_stdout": "ITEM\tPRICE\nTea\t120\nCoffee\t150\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "arithmetic-integer-division-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "6\r\n6.5\r\n",
+      "expected_stdout": "6\n6.5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "compound-assignment-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "200\r\n",
+      "expected_stdout": "200\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "read-input-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Hello, Ada Lovelace!\r\n",
+      "expected_stdout": "Hello, Ada Lovelace!\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "scanner-lines-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Count: 4\r\n",
+      "expected_stdout": "Count: 4\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "strings-and-characters-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "ORBIT\r\n5\r\n",
+      "expected_stdout": "ORBIT\n5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "if-else-branches-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "High\r\n",
+      "expected_stdout": "High\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "comparisons-strings-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Confirmed\r\n",
+      "expected_stdout": "Confirmed\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "logical-operators-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "false\r\n",
+      "expected_stdout": "false\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "input-guards-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "2.5\r\n",
+      "expected_stdout": "2.5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "numeric-recovery-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Count: 5\r\n",
+      "expected_stdout": "Count: 5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "switch-selection-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "List\r\n",
+      "expected_stdout": "List\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "ternary-operator-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "ticket\r\n",
+      "expected_stdout": "ticket\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "iteration-loops-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "0\r\n1\r\n2\r\n",
+      "expected_stdout": "0\n1\n2\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "while-retry-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\nAccepted: 4\r\n",
+      "expected_stdout": "Invalid\nAccepted: 4\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "loop-accumulation-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Sum: 9\r\n",
+      "expected_stdout": "Sum: 9\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "do-while-menu-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Hello\r\nUnknown\r\nBye\r\n",
+      "expected_stdout": "Hello\nUnknown\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "workflow-projects-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid count\r\nTotal: 240\r\nBye\r\n",
+      "expected_stdout": "Invalid count\nTotal: 240\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "methods-and-parameters-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "360\r\n",
+      "expected_stdout": "360\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "method-scope-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "5\r\n6\r\n",
+      "expected_stdout": "5\n6\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "exception-handling-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid number\r\nInvalid range\r\nAccepted: 2\r\n",
+      "expected_stdout": "Invalid number\nInvalid range\nAccepted: 2\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "validation-methods-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Accepted\r\n",
+      "expected_stdout": "Accepted\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "debugging-testing-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "480\r\n",
+      "expected_stdout": "480\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "arrays-and-search-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "1\r\n",
+      "expected_stdout": "1\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "arraylist-collections-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Count: 2\r\nOrbit\r\nMoon\r\n",
+      "expected_stdout": "Count: 2\nOrbit\nMoon\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "classes-objects-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Orbit|2\r\nMoon|5\r\n",
+      "expected_stdout": "Orbit|2\nMoon|5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "encapsulation-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "5\r\n",
+      "expected_stdout": "5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "inventory-project-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Added\r\nOrbit|2\r\nBye\r\n",
+      "expected_stdout": "Added\nOrbit|2\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "file-write-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Saved\r\n",
+      "expected_stdout": "Saved\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "note.txt",
+          "passed": true,
+          "actual": "Orbit\n",
+          "expected": "Orbit\n"
+        }
+      ]
+    },
+    {
+      "id": "file-read-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Orbit\r\n",
+      "expected_stdout": "Orbit\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "file-resources-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Appended\r\n",
+      "expected_stdout": "Appended\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "log.txt",
+          "passed": true,
+          "actual": "First\nSecond\n",
+          "expected": "First\nSecond\n"
+        }
+      ]
+    },
+    {
+      "id": "persistent-inventory-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Added\r\nSaved\r\nBye\r\n",
+      "expected_stdout": "Added\nSaved\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "records.txt",
+          "passed": true,
+          "actual": "Orbit|2\n",
+          "expected": "Orbit|2\n"
+        }
+      ]
+    },
+    {
+      "id": "external-run-example",
+      "case": "worked example",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Portable Java\r\n",
+      "expected_stdout": "Portable Java\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "java-program-skeleton-build",
+      "case": "required greeting",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "My first Java program\r\n",
+      "expected_stdout": "My first Java program\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "java-program-skeleton-build",
+      "case": "repeatability",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "My first Java program\r\n",
+      "expected_stdout": "My first Java program\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "output-and-comments-build",
+      "case": "book label",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Title: Orbit\r\nStatus: Available\r\n",
+      "expected_stdout": "Title: Orbit\nStatus: Available\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "output-and-comments-build",
+      "case": "second run",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Title: Orbit\r\nStatus: Available\r\n",
+      "expected_stdout": "Title: Orbit\nStatus: Available\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "compiler-diagnostics-repair",
+      "case": "after repair",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Fixed\r\n",
+      "expected_stdout": "Fixed\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "compiler-diagnostics-repair",
+      "case": "after repair again",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Fixed\r\n",
+      "expected_stdout": "Fixed\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "compiler-diagnostics-build",
+      "case": "requested text",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Ready\r\n",
+      "expected_stdout": "Ready\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "compiler-diagnostics-build",
+      "case": "same program, another run",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Ready\r\n",
+      "expected_stdout": "Ready\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "first-success-transfer-build",
+      "case": "postcard lines",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Mars report\r\nReady\r\nEnd of transmission\r\n",
+      "expected_stdout": "Mars report\nReady\nEnd of transmission\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "first-success-transfer-build",
+      "case": "no input required",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Mars report\r\nReady\r\nEnd of transmission\r\n",
+      "expected_stdout": "Mars report\nReady\nEnd of transmission\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "types-variables-build",
+      "case": "three items",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Total: 360\r\n",
+      "expected_stdout": "Total: 360\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "types-variables-build",
+      "case": "deterministic receipt",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Total: 360\r\n",
+      "expected_stdout": "Total: 360\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "identifiers-and-naming-build",
+      "case": "available seats",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "2\r\n",
+      "expected_stdout": "2\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "identifiers-and-naming-build",
+      "case": "stable calculation",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "2\r\n",
+      "expected_stdout": "2\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "escape-sequences-build",
+      "case": "escaped label",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Book: \"Orbit\"\r\nPath: C:\\books\r\n",
+      "expected_stdout": "Book: \"Orbit\"\nPath: C:\\books\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "escape-sequences-build",
+      "case": "escaped label again",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Book: \"Orbit\"\r\nPath: C:\\books\r\n",
+      "expected_stdout": "Book: \"Orbit\"\nPath: C:\\books\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "arithmetic-integer-division-repair",
+      "case": "fraction preserved",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "6.5\r\n",
+      "expected_stdout": "6.5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "arithmetic-integer-division-repair",
+      "case": "fraction preserved again",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "6.5\r\n",
+      "expected_stdout": "6.5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "arithmetic-integer-division-build",
+      "case": "odd sum",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "5.5\r\n",
+      "expected_stdout": "5.5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "arithmetic-integer-division-build",
+      "case": "same calculation",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "5.5\r\n",
+      "expected_stdout": "5.5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "compound-assignment-build",
+      "case": "ordered updates",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "26\r\n",
+      "expected_stdout": "26\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "compound-assignment-build",
+      "case": "repeat from initial state",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "26\r\n",
+      "expected_stdout": "26\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "values-transfer-build",
+      "case": "duration calculation",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Hours: 2\r\nMinutes: 5\r\n",
+      "expected_stdout": "Hours: 2\nMinutes: 5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "values-transfer-build",
+      "case": "input not used",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Hours: 2\r\nMinutes: 5\r\n",
+      "expected_stdout": "Hours: 2\nMinutes: 5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "read-input-build",
+      "case": "title with spaces",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Selected: The Long Orbit\r\n",
+      "expected_stdout": "Selected: The Long Orbit\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "read-input-build",
+      "case": "UTF-8 title",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Selected: 星の旅\r\n",
+      "expected_stdout": "Selected: 星の旅\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "scanner-lines-build",
+      "case": "two-line form",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Ada Lovelace / 24\r\n",
+      "expected_stdout": "Ada Lovelace / 24\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "scanner-lines-build",
+      "case": "invalid token",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid age\r\n",
+      "expected_stdout": "Invalid age\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "scanner-lines-build",
+      "case": "zero boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "New Reader / 0\r\n",
+      "expected_stdout": "New Reader / 0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "strings-and-characters-build",
+      "case": "trim ends",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "First: O\r\nLength: 5\r\n",
+      "expected_stdout": "First: O\nLength: 5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "strings-and-characters-build",
+      "case": "empty boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Empty\r\n",
+      "expected_stdout": "Empty\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "strings-and-characters-build",
+      "case": "single character",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "First: A\r\nLength: 1\r\n",
+      "expected_stdout": "First: A\nLength: 1\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "input-text-transfer-build",
+      "case": "whole city name",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Station: NEW OSLO\r\n",
+      "expected_stdout": "Station: NEW OSLO\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "input-text-transfer-build",
+      "case": "empty label",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Station: \r\n",
+      "expected_stdout": "Station: \n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "input-text-transfer-build",
+      "case": "UTF-8 city",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Station: 星の町\r\n",
+      "expected_stdout": "Station: 星の町\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "if-else-branches-build",
+      "case": "zero boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Mild\r\n",
+      "expected_stdout": "Mild\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "if-else-branches-build",
+      "case": "hot threshold",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Hot\r\n",
+      "expected_stdout": "Hot\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "if-else-branches-build",
+      "case": "below range",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n",
+      "expected_stdout": "Invalid\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "if-else-branches-build",
+      "case": "freezing",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Freeze\r\n",
+      "expected_stdout": "Freeze\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "if-else-branches-build",
+      "case": "upper boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Hot\r\n",
+      "expected_stdout": "Hot\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "comparisons-strings-build",
+      "case": "case-insensitive content",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Open\r\n",
+      "expected_stdout": "Open\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "comparisons-strings-build",
+      "case": "different word",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Unknown\r\n",
+      "expected_stdout": "Unknown\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "comparisons-strings-build",
+      "case": "blank input",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Unknown\r\n",
+      "expected_stdout": "Unknown\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "logical-operators-build",
+      "case": "lower boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Eligible\r\n",
+      "expected_stdout": "Eligible\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "logical-operators-build",
+      "case": "upper boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Eligible\r\n",
+      "expected_stdout": "Eligible\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "logical-operators-build",
+      "case": "one rule fails",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Not eligible\r\n",
+      "expected_stdout": "Not eligible\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "logical-operators-build",
+      "case": "below age",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Not eligible\r\n",
+      "expected_stdout": "Not eligible\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "input-guards-build",
+      "case": "decimal result",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "4.5\r\n",
+      "expected_stdout": "4.5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "input-guards-build",
+      "case": "zero divisor",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Cannot divide by zero\r\n",
+      "expected_stdout": "Cannot divide by zero\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "input-guards-build",
+      "case": "bad token",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid number\r\n",
+      "expected_stdout": "Invalid number\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "input-guards-build",
+      "case": "nonfinite value",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid number\r\n",
+      "expected_stdout": "Invalid number\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "input-guards-build",
+      "case": "missing operand",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid number\r\n",
+      "expected_stdout": "Invalid number\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "numeric-recovery-build",
+      "case": "normal",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Seats: 12\r\n",
+      "expected_stdout": "Seats: 12\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "numeric-recovery-build",
+      "case": "zero",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Seats: 0\r\n",
+      "expected_stdout": "Seats: 0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "numeric-recovery-build",
+      "case": "bad text",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid seats\r\n",
+      "expected_stdout": "Invalid seats\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "numeric-recovery-build",
+      "case": "overflow",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid seats\r\n",
+      "expected_stdout": "Invalid seats\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "numeric-recovery-build",
+      "case": "negative",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid seats\r\n",
+      "expected_stdout": "Invalid seats\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "numeric-recovery-build",
+      "case": "EOF",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid seats\r\n",
+      "expected_stdout": "Invalid seats\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "switch-selection-build",
+      "case": "add",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Added\r\n",
+      "expected_stdout": "Added\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "switch-selection-build",
+      "case": "list",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Listed\r\n",
+      "expected_stdout": "Listed\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "switch-selection-build",
+      "case": "exit command",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Bye\r\n",
+      "expected_stdout": "Bye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "switch-selection-build",
+      "case": "unknown",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Unknown\r\n",
+      "expected_stdout": "Unknown\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "decisions-transfer-build",
+      "case": "small boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Small\r\n",
+      "expected_stdout": "Small\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "decisions-transfer-build",
+      "case": "large boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Large\r\n",
+      "expected_stdout": "Large\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "decisions-transfer-build",
+      "case": "upper limit",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Large\r\n",
+      "expected_stdout": "Large\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "decisions-transfer-build",
+      "case": "reject zero",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n",
+      "expected_stdout": "Invalid\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "decisions-transfer-build",
+      "case": "reject decimal",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n",
+      "expected_stdout": "Invalid\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "decisions-transfer-build",
+      "case": "empty EOF",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "",
+      "expected_stdout": "",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "ternary-operator-build",
+      "case": "singular",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "item\r\n",
+      "expected_stdout": "item\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "ternary-operator-build",
+      "case": "zero plural",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "items\r\n",
+      "expected_stdout": "items\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "ternary-operator-build",
+      "case": "many plural",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "items\r\n",
+      "expected_stdout": "items\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "iteration-loops-repair",
+      "case": "n two",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "0\r\n1\r\n",
+      "expected_stdout": "0\n1\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "iteration-loops-repair",
+      "case": "empty boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "",
+      "expected_stdout": "",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "iteration-loops-build",
+      "case": "three iterations",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "1\r\n2\r\n3\r\n",
+      "expected_stdout": "1\n2\n3\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "iteration-loops-build",
+      "case": "zero iterations",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "",
+      "expected_stdout": "",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "iteration-loops-build",
+      "case": "one iteration",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "1\r\n",
+      "expected_stdout": "1\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "while-retry-build",
+      "case": "recover from text",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\nAccepted: 3\r\n",
+      "expected_stdout": "Invalid\nAccepted: 3\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "while-retry-build",
+      "case": "quit after range error",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\nBye\r\n",
+      "expected_stdout": "Invalid\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "while-retry-build",
+      "case": "upper boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Accepted: 10\r\n",
+      "expected_stdout": "Accepted: 10\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "while-retry-build",
+      "case": "EOF after bad line",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n",
+      "expected_stdout": "Invalid\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "while-retry-build",
+      "case": "empty batch",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "",
+      "expected_stdout": "",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "loop-accumulation-build",
+      "case": "mixed values",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Sum: 7\r\n",
+      "expected_stdout": "Sum: 7\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "loop-accumulation-build",
+      "case": "empty group",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Sum: 0\r\n",
+      "expected_stdout": "Sum: 0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "loop-accumulation-build",
+      "case": "sum exceeds int",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Sum: 4000000000\r\n",
+      "expected_stdout": "Sum: 4000000000\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "do-while-menu-build",
+      "case": "repeat and exit",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Hello\r\nHello\r\nBye\r\n",
+      "expected_stdout": "Hello\nHello\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "do-while-menu-build",
+      "case": "recover unknown",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Unknown\r\nHello\r\nBye\r\n",
+      "expected_stdout": "Unknown\nHello\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "do-while-menu-build",
+      "case": "EOF",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "",
+      "expected_stdout": "",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "workflow-projects-modify",
+      "case": "parcel price",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Total: 160\r\nBye\r\n",
+      "expected_stdout": "Total: 160\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "workflow-projects-modify",
+      "case": "parcel boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Total: 8000\r\nInvalid count\r\nBye\r\n",
+      "expected_stdout": "Total: 8000\nInvalid count\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "workflow-projects-build",
+      "case": "normal and minimum",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Total: 360\r\nTotal: 120\r\nBye\r\n",
+      "expected_stdout": "Total: 360\nTotal: 120\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "workflow-projects-build",
+      "case": "recover and quit",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid count\r\nInvalid count\r\nInvalid count\r\nTotal: 240\r\nBye\r\n",
+      "expected_stdout": "Invalid count\nInvalid count\nInvalid count\nTotal: 240\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "workflow-projects-build",
+      "case": "maximum and above",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Total: 120000\r\nInvalid count\r\nBye\r\n",
+      "expected_stdout": "Total: 120000\nInvalid count\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "workflow-projects-build",
+      "case": "overflow and EOF",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid count\r\nTotal: 480\r\n",
+      "expected_stdout": "Invalid count\nTotal: 480\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "repetition-transfer-build",
+      "case": "two scores",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Count: 2\r\nTotal: 10\r\n",
+      "expected_stdout": "Count: 2\nTotal: 10\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "repetition-transfer-build",
+      "case": "recover and count zero",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\nInvalid\r\nCount: 1\r\nTotal: 0\r\n",
+      "expected_stdout": "Invalid\nInvalid\nCount: 1\nTotal: 0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "repetition-transfer-build",
+      "case": "EOF tally",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Count: 1\r\nTotal: 10\r\n",
+      "expected_stdout": "Count: 1\nTotal: 10\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "repetition-transfer-build",
+      "case": "empty tally",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Count: 0\r\nTotal: 0\r\n",
+      "expected_stdout": "Count: 0\nTotal: 0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "methods-and-parameters-build",
+      "case": "rectangle",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "28\r\n",
+      "expected_stdout": "28\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "methods-and-parameters-build",
+      "case": "zero width",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "0\r\n",
+      "expected_stdout": "0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "methods-and-parameters-build",
+      "case": "one square",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "1\r\n",
+      "expected_stdout": "1\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "method-scope-build",
+      "case": "ordinary update",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "5\r\n",
+      "expected_stdout": "5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "method-scope-build",
+      "case": "zero update",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "1\r\n",
+      "expected_stdout": "1\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "exception-handling-build",
+      "case": "distinct recovery",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid number\r\nInvalid range\r\nAccepted: 2\r\n",
+      "expected_stdout": "Invalid number\nInvalid range\nAccepted: 2\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "exception-handling-build",
+      "case": "overflow and upper boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid number\r\nAccepted: 10\r\nInvalid range\r\n",
+      "expected_stdout": "Invalid number\nAccepted: 10\nInvalid range\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "validation-methods-build",
+      "case": "ordinary title",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Accepted\r\n",
+      "expected_stdout": "Accepted\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "validation-methods-build",
+      "case": "blank",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n",
+      "expected_stdout": "Invalid\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "validation-methods-build",
+      "case": "delimiter",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n",
+      "expected_stdout": "Invalid\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "validation-methods-build",
+      "case": "length twenty",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Accepted\r\n",
+      "expected_stdout": "Accepted\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "validation-methods-build",
+      "case": "length twenty-one",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n",
+      "expected_stdout": "Invalid\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "debugging-testing-repair",
+      "case": "threshold regression",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "480\r\n",
+      "expected_stdout": "480\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "debugging-testing-repair",
+      "case": "below threshold unchanged",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "400\r\n",
+      "expected_stdout": "400\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "debugging-testing-build",
+      "case": "below discount",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "400\r\n",
+      "expected_stdout": "400\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "debugging-testing-build",
+      "case": "at discount",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "480\r\n",
+      "expected_stdout": "480\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "debugging-testing-build",
+      "case": "above discount",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "580\r\n",
+      "expected_stdout": "580\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "debugging-testing-build",
+      "case": "invalid boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n",
+      "expected_stdout": "Invalid\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "debugging-testing-build",
+      "case": "bad token",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n",
+      "expected_stdout": "Invalid\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "structure-transfer-build",
+      "case": "freezing",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "32.0\r\n",
+      "expected_stdout": "32.0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "structure-transfer-build",
+      "case": "shared scale value",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "-40.0\r\n",
+      "expected_stdout": "-40.0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "structure-transfer-build",
+      "case": "decimal arithmetic",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "212.0\r\n",
+      "expected_stdout": "212.0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "structure-transfer-build",
+      "case": "reject NaN",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n",
+      "expected_stdout": "Invalid\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "structure-transfer-build",
+      "case": "below absolute zero",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n",
+      "expected_stdout": "Invalid\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "structure-transfer-build",
+      "case": "overflow check",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n",
+      "expected_stdout": "Invalid\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "arrays-and-search-build",
+      "case": "duplicates first match",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "1\r\n",
+      "expected_stdout": "1\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "arrays-and-search-build",
+      "case": "absent target",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "-1\r\n",
+      "expected_stdout": "-1\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "arrays-and-search-build",
+      "case": "empty array",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "-1\r\n",
+      "expected_stdout": "-1\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "arraylist-collections-build",
+      "case": "two full titles",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Count: 2\r\nThe Long Orbit\r\nMoon\r\n",
+      "expected_stdout": "Count: 2\nThe Long Orbit\nMoon\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "arraylist-collections-build",
+      "case": "empty list",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Count: 0\r\n",
+      "expected_stdout": "Count: 0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "arraylist-collections-build",
+      "case": "duplicate titles permitted",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Count: 2\r\nOrbit\r\nOrbit\r\n",
+      "expected_stdout": "Count: 2\nOrbit\nOrbit\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "classes-objects-build",
+      "case": "one record",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Orbit|3\r\n",
+      "expected_stdout": "Orbit|3\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "classes-objects-build",
+      "case": "zero quantity and spaces",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Long Orbit|0\r\n",
+      "expected_stdout": "Long Orbit|0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "encapsulation-build",
+      "case": "valid update",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Updated\r\n5\r\n",
+      "expected_stdout": "Updated\n5\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "encapsulation-build",
+      "case": "negative rejected",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n2\r\n",
+      "expected_stdout": "Invalid\n2\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "encapsulation-build",
+      "case": "nonnumeric rejected",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\n2\r\n",
+      "expected_stdout": "Invalid\n2\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "encapsulation-build",
+      "case": "zero valid",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Updated\r\n0\r\n",
+      "expected_stdout": "Updated\n0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "inventory-project-build",
+      "case": "normal list",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Added\r\nAdded\r\nOrbit|2\r\nMoon|0\r\nBye\r\n",
+      "expected_stdout": "Added\nAdded\nOrbit|2\nMoon|0\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "inventory-project-build",
+      "case": "empty and bad data",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Empty\r\nInvalid\r\nInvalid\r\nInvalid\r\nBye\r\n",
+      "expected_stdout": "Empty\nInvalid\nInvalid\nInvalid\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "inventory-project-build",
+      "case": "duplicate and malformed command",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Added\r\nDuplicate\r\nUnknown\r\nOrbit|2\r\nBye\r\n",
+      "expected_stdout": "Added\nDuplicate\nUnknown\nOrbit|2\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "records-transfer-build",
+      "case": "two editions",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Queued\r\nQueued\r\nPages: 200\r\n",
+      "expected_stdout": "Queued\nQueued\nPages: 200\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "records-transfer-build",
+      "case": "recover and upper boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Invalid\r\nInvalid\r\nQueued\r\nPages: 10000\r\n",
+      "expected_stdout": "Invalid\nInvalid\nQueued\nPages: 10000\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "records-transfer-build",
+      "case": "zero and bad shape",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Queued\r\nInvalid\r\nPages: 0\r\n",
+      "expected_stdout": "Queued\nInvalid\nPages: 0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "records-transfer-build",
+      "case": "empty EOF",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Pages: 0\r\n",
+      "expected_stdout": "Pages: 0\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "file-write-build",
+      "case": "UTF-8 save",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Saved\r\n",
+      "expected_stdout": "Saved\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "note.txt",
+          "passed": true,
+          "actual": "星の旅\n",
+          "expected": "星の旅\n"
+        }
+      ]
+    },
+    {
+      "id": "file-write-build",
+      "case": "replace old content",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Saved\r\n",
+      "expected_stdout": "Saved\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "note.txt",
+          "passed": true,
+          "actual": "New\n",
+          "expected": "New\n"
+        }
+      ]
+    },
+    {
+      "id": "file-read-build",
+      "case": "stored UTF-8",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "星の旅\r\n",
+      "expected_stdout": "星の旅\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "note.txt",
+          "passed": true,
+          "actual": "星の旅\n",
+          "expected": "星の旅\n"
+        }
+      ]
+    },
+    {
+      "id": "file-read-build",
+      "case": "missing first-run note",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "No saved note\r\n",
+      "expected_stdout": "No saved note\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "file-read-build",
+      "case": "empty stored note",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "",
+      "expected_stdout": "",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "file-resources-build",
+      "case": "create log",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Appended\r\n",
+      "expected_stdout": "Appended\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "log.txt",
+          "passed": true,
+          "actual": "Start\n",
+          "expected": "Start\n"
+        }
+      ]
+    },
+    {
+      "id": "file-resources-build",
+      "case": "preserve earlier line",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Appended\r\n",
+      "expected_stdout": "Appended\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "log.txt",
+          "passed": true,
+          "actual": "Start\nNext\n",
+          "expected": "Start\nNext\n"
+        }
+      ]
+    },
+    {
+      "id": "persistent-inventory-build",
+      "case": "save then restart",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Added\r\nSaved\r\nBye\r\n",
+      "expected_stdout": "Added\nSaved\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "records.txt",
+          "passed": true,
+          "actual": "Orbit|2\n",
+          "expected": "Orbit|2\n"
+        }
+      ]
+    },
+    {
+      "id": "persistent-inventory-build",
+      "case": "save then restart",
+      "step": 2,
+      "passed": true,
+      "actual_stdout": "Orbit|2\r\nBye\r\n",
+      "expected_stdout": "Orbit|2\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "persistent-inventory-build",
+      "case": "corrupt file preserved",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Load failed\r\n",
+      "expected_stdout": "Load failed\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "records.txt",
+          "passed": true,
+          "actual": "Orbit|bad\n",
+          "expected": "Orbit|bad\n"
+        }
+      ]
+    },
+    {
+      "id": "persistent-inventory-build",
+      "case": "first-run empty",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Empty\r\nSaved\r\nBye\r\n",
+      "expected_stdout": "Empty\nSaved\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "records.txt",
+          "passed": true,
+          "actual": "",
+          "expected": ""
+        }
+      ]
+    },
+    {
+      "id": "external-run-build",
+      "case": "external input contract",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Portable: Orbit\r\n",
+      "expected_stdout": "Portable: Orbit\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "external-run-build",
+      "case": "UTF-8 portability",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Portable: 星の旅\r\n",
+      "expected_stdout": "Portable: 星の旅\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "capstone-records-build",
+      "case": "save then restart",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Added\r\nSaved\r\nBye\r\n",
+      "expected_stdout": "Added\nSaved\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "records.txt",
+          "passed": true,
+          "actual": "Orbit|2\n",
+          "expected": "Orbit|2\n"
+        }
+      ]
+    },
+    {
+      "id": "capstone-records-build",
+      "case": "save then restart",
+      "step": 2,
+      "passed": true,
+      "actual_stdout": "Orbit|2\r\nBye\r\n",
+      "expected_stdout": "Orbit|2\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "capstone-records-build",
+      "case": "recover and remove",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Added\r\nDuplicate\r\nInvalid\r\nNot found\r\nRemoved\r\nEmpty\r\nSaved\r\nBye\r\n",
+      "expected_stdout": "Added\nDuplicate\nInvalid\nNot found\nRemoved\nEmpty\nSaved\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "records.txt",
+          "passed": true,
+          "actual": "",
+          "expected": ""
+        }
+      ]
+    },
+    {
+      "id": "capstone-records-build",
+      "case": "quantity boundaries and unknown",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Added\r\nAdded\r\nInvalid\r\nUnknown\r\nZero|0\r\nMax|1000\r\nBye\r\n",
+      "expected_stdout": "Added\nAdded\nInvalid\nUnknown\nZero|0\nMax|1000\nBye\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "capstone-records-build",
+      "case": "protect corrupt file",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Load failed\r\n",
+      "expected_stdout": "Load failed\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "records.txt",
+          "passed": true,
+          "actual": "Orbit|2\nOrbit|3\n",
+          "expected": "Orbit|2\nOrbit|3\n"
+        }
+      ]
+    },
+    {
+      "id": "capstone-records-build",
+      "case": "empty EOF",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "",
+      "expected_stdout": "",
+      "stderr": "",
+      "exit_code": 0,
+      "files": []
+    },
+    {
+      "id": "persistence-transfer-build",
+      "case": "counter restart",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Visits: 1\r\n",
+      "expected_stdout": "Visits: 1\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "visits.txt",
+          "passed": true,
+          "actual": "1\n",
+          "expected": "1\n"
+        }
+      ]
+    },
+    {
+      "id": "persistence-transfer-build",
+      "case": "counter restart",
+      "step": 2,
+      "passed": true,
+      "actual_stdout": "Visits: 2\r\n",
+      "expected_stdout": "Visits: 2\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "visits.txt",
+          "passed": true,
+          "actual": "2\n",
+          "expected": "2\n"
+        }
+      ]
+    },
+    {
+      "id": "persistence-transfer-build",
+      "case": "protect corrupt count",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Load failed\r\n",
+      "expected_stdout": "Load failed\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "visits.txt",
+          "passed": true,
+          "actual": "bad\n",
+          "expected": "bad\n"
+        }
+      ]
+    },
+    {
+      "id": "persistence-transfer-build",
+      "case": "upper boundary",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Full\r\n",
+      "expected_stdout": "Full\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "visits.txt",
+          "passed": true,
+          "actual": "1000000\n",
+          "expected": "1000000\n"
+        }
+      ]
+    },
+    {
+      "id": "persistence-transfer-build",
+      "case": "last increment",
+      "step": 1,
+      "passed": true,
+      "actual_stdout": "Visits: 1000000\r\n",
+      "expected_stdout": "Visits: 1000000\n",
+      "stderr": "",
+      "exit_code": 0,
+      "files": [
+        {
+          "name": "visits.txt",
+          "passed": true,
+          "actual": "1000000\n",
+          "expected": "1000000\n"
+        }
+      ]
+    },
+    {
+      "id": "compiler-diagnostics-repair-intentional-broken-starter",
+      "passed": true,
+      "status": "compile_error"
+    },
+    {
+      "id": "java-program-skeleton-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "required greeting",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "repeatability",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "output-and-comments-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "book label",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "second run",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "compiler-diagnostics-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "requested text",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "same program, another run",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "first-success-transfer-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "postcard lines",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "no input required",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "types-variables-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "three items",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "deterministic receipt",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "identifiers-and-naming-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "available seats",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "stable calculation",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "escape-sequences-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "escaped label",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "escaped label again",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "arithmetic-integer-division-repair-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "fraction preserved",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "6.0\r\n",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "fraction preserved again",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "6.0\r\n",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "arithmetic-integer-division-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "odd sum",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "same calculation",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "compound-assignment-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "ordered updates",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "repeat from initial state",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "values-transfer-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "duration calculation",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "input not used",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "read-input-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "title with spaces",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "UTF-8 title",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "scanner-lines-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "two-line form",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "invalid token",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "zero boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "strings-and-characters-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "trim ends",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "empty boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "single character",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "input-text-transfer-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "whole city name",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "empty label",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "UTF-8 city",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "if-else-branches-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "zero boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "hot threshold",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "below range",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "freezing",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "upper boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "comparisons-strings-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "case-insensitive content",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "different word",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "blank input",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "logical-operators-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "lower boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "upper boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "one rule fails",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "below age",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "input-guards-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "decimal result",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "zero divisor",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "bad token",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "nonfinite value",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "missing operand",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "numeric-recovery-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "normal",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "zero",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "bad text",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "overflow",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "negative",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "EOF",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "switch-selection-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "add",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "list",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "exit command",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "unknown",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "decisions-transfer-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "small boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "large boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "upper limit",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "reject zero",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "reject decimal",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "empty EOF",
+          "matches_requirement": true,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "ternary-operator-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "singular",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "zero plural",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "many plural",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "iteration-loops-repair-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "n two",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "0\r\n1\r\n2\r\n",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "empty boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "0\r\n",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "iteration-loops-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "three iterations",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "zero iterations",
+          "matches_requirement": true,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "one iteration",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "while-retry-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "recover from text",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "quit after range error",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "upper boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "EOF after bad line",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "empty batch",
+          "matches_requirement": true,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "loop-accumulation-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "mixed values",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "Sum: 0\r\n",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "empty group",
+          "matches_requirement": true,
+          "exit_code": 0,
+          "stdout": "Sum: 0\r\n",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "sum exceeds int",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "Sum: 0\r\n",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "do-while-menu-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "repeat and exit",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "recover unknown",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "EOF",
+          "matches_requirement": true,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "workflow-projects-modify-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "parcel price",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "Total: 240\r\nBye\r\n",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "parcel boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "Total: 12000\r\nTotal: 12120\r\nBye\r\n",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "workflow-projects-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "normal and minimum",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "recover and quit",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "maximum and above",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "overflow and EOF",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "repetition-transfer-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "two scores",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "recover and count zero",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "EOF tally",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "empty tally",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "methods-and-parameters-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "rectangle",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "zero width",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "one square",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "method-scope-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "ordinary update",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "zero update",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "exception-handling-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "distinct recovery",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "overflow and upper boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "validation-methods-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "ordinary title",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "blank",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "delimiter",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "length twenty",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "length twenty-one",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "debugging-testing-repair-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "threshold regression",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "500\r\n",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "below threshold unchanged",
+          "matches_requirement": true,
+          "exit_code": 0,
+          "stdout": "400\r\n",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "debugging-testing-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "below discount",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "at discount",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "above discount",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "invalid boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "bad token",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "structure-transfer-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "freezing",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "shared scale value",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "decimal arithmetic",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "reject NaN",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "below absolute zero",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "overflow check",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "arrays-and-search-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "duplicates first match",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "absent target",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "empty array",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "arraylist-collections-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "two full titles",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "empty list",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "duplicate titles permitted",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "classes-objects-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "one record",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "zero quantity and spaces",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "encapsulation-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "valid update",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "negative rejected",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "nonnumeric rejected",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "zero valid",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "inventory-project-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "normal list",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "empty and bad data",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "duplicate and malformed command",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "records-transfer-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "two editions",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "recover and upper boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "zero and bad shape",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "empty EOF",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "file-write-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "UTF-8 save",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "note.txt",
+              "actual": null,
+              "expected": "星の旅\n",
+              "matches": false
+            }
+          ]
+        },
+        {
+          "case": "replace old content",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "note.txt",
+              "actual": "Old\n",
+              "expected": "New\n",
+              "matches": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "file-read-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "stored UTF-8",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "note.txt",
+              "actual": "星の旅\n",
+              "expected": "星の旅\n",
+              "matches": true
+            }
+          ]
+        },
+        {
+          "case": "missing first-run note",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "empty stored note",
+          "matches_requirement": true,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "file-resources-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "create log",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "log.txt",
+              "actual": null,
+              "expected": "Start\n",
+              "matches": false
+            }
+          ]
+        },
+        {
+          "case": "preserve earlier line",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "log.txt",
+              "actual": "Start\n",
+              "expected": "Start\nNext\n",
+              "matches": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "persistent-inventory-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "save then restart",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "records.txt",
+              "actual": null,
+              "expected": "Orbit|2\n",
+              "matches": false
+            }
+          ]
+        },
+        {
+          "case": "save then restart",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "corrupt file preserved",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "records.txt",
+              "actual": "Orbit|bad\n",
+              "expected": "Orbit|bad\n",
+              "matches": true
+            }
+          ]
+        },
+        {
+          "case": "first-run empty",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "records.txt",
+              "actual": null,
+              "expected": "",
+              "matches": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "external-run-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "external input contract",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "UTF-8 portability",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "capstone-records-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "save then restart",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "records.txt",
+              "actual": null,
+              "expected": "Orbit|2\n",
+              "matches": false
+            }
+          ]
+        },
+        {
+          "case": "save then restart",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "recover and remove",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "records.txt",
+              "actual": null,
+              "expected": "",
+              "matches": false
+            }
+          ]
+        },
+        {
+          "case": "quantity boundaries and unknown",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        },
+        {
+          "case": "protect corrupt file",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "records.txt",
+              "actual": "Orbit|2\nOrbit|3\n",
+              "expected": "Orbit|2\nOrbit|3\n",
+              "matches": true
+            }
+          ]
+        },
+        {
+          "case": "empty EOF",
+          "matches_requirement": true,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": []
+        }
+      ]
+    },
+    {
+      "id": "persistence-transfer-build-starter-incomplete",
+      "passed": true,
+      "evidence": [
+        {
+          "case": "counter restart",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "visits.txt",
+              "actual": null,
+              "expected": "1\n",
+              "matches": false
+            }
+          ]
+        },
+        {
+          "case": "counter restart",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "visits.txt",
+              "actual": null,
+              "expected": "2\n",
+              "matches": false
+            }
+          ]
+        },
+        {
+          "case": "protect corrupt count",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "visits.txt",
+              "actual": "bad\n",
+              "expected": "bad\n",
+              "matches": true
+            }
+          ]
+        },
+        {
+          "case": "upper boundary",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "visits.txt",
+              "actual": "1000000\n",
+              "expected": "1000000\n",
+              "matches": true
+            }
+          ]
+        },
+        {
+          "case": "last increment",
+          "matches_requirement": false,
+          "exit_code": 0,
+          "stdout": "",
+          "stderr": "",
+          "files": [
+            {
+              "name": "visits.txt",
+              "actual": "999999\n",
+              "expected": "1000000\n",
+              "matches": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

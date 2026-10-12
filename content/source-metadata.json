@@ -1,0 +1,522 @@
+{
+  "concepts": [
+    {
+      "id": "problem-decomposition",
+      "source_pdfs": [
+        {
+          "file": "notes/ALgorithm_BSIT1-1.pdf",
+          "pages": [
+            14,
+            15,
+            17,
+            18,
+            19,
+            20,
+            34
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            5
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "flowchart-symbols",
+      "source_pdfs": [
+        {
+          "file": "notes/ALgorithm_BSIT1-1.pdf",
+          "pages": [
+            21,
+            22,
+            23,
+            24,
+            34
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "pseudocode",
+      "source_pdfs": [
+        {
+          "file": "notes/ALgorithm_BSIT1-1.pdf",
+          "pages": [
+            28,
+            29,
+            30,
+            33,
+            34
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "types-variables",
+      "source_pdfs": [
+        {
+          "file": "notes/L2_ Anatomy of Basic Programming.pdf",
+          "pages": [
+            14,
+            15,
+            17,
+            18,
+            19,
+            20,
+            21,
+            23,
+            24,
+            35,
+            43,
+            45
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            5
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "java-program-skeleton",
+      "source_pdfs": [
+        {
+          "file": "notes/L2_ Anatomy of Basic Programming.pdf",
+          "pages": [
+            39,
+            41,
+            48,
+            49,
+            50,
+            52,
+            54
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            5
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "identifiers-and-naming",
+      "source_pdfs": [
+        {
+          "file": "notes/L2_ Anatomy of Basic Programming.pdf",
+          "pages": [
+            14,
+            15,
+            18,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "output-and-comments",
+      "source_pdfs": [
+        {
+          "file": "notes/L2_ Anatomy of Basic Programming.pdf",
+          "pages": [
+            52,
+            54,
+            55,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "read-input",
+      "source_pdfs": [
+        {
+          "file": "notes/L3_ Basic Java Operators.pdf",
+          "pages": [
+            31,
+            32
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            5
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "arithmetic-integer-division",
+      "source_pdfs": [
+        {
+          "file": "notes/L3_ Basic Java Operators.pdf",
+          "pages": [
+            12,
+            13,
+            14,
+            15,
+            16
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            5
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "escape-sequences",
+      "source_pdfs": [
+        {
+          "file": "notes/L3_ Basic Java Operators.pdf",
+          "pages": [
+            4,
+            5,
+            6,
+            7
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "compound-assignment",
+      "source_pdfs": [
+        {
+          "file": "notes/L3_ Basic Java Operators.pdf",
+          "pages": [
+            9,
+            10,
+            11
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "comparisons-strings",
+      "source_pdfs": [
+        {
+          "file": "notes/L3_ Basic Java Operators.pdf",
+          "pages": [
+            21,
+            22,
+            23,
+            24,
+            25
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/L2_ Anatomy of Basic Programming.pdf",
+          "pages": [
+            35
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            7
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "if-else-branches",
+      "source_pdfs": [
+        {
+          "file": "notes/L4_ Conditional Structures.pdf",
+          "pages": [
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            19,
+            20
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            6
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "validation-methods",
+      "source_pdfs": [
+        {
+          "file": "notes/ALgorithm_BSIT1-1.pdf",
+          "pages": [
+            18,
+            20,
+            34
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            6
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "logical-operators",
+      "source_pdfs": [
+        {
+          "file": "notes/L3_ Basic Java Operators.pdf",
+          "pages": [
+            27,
+            28,
+            29,
+            30
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/L4_ Conditional Structures.pdf",
+          "pages": [
+            25,
+            26,
+            27,
+            28
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            6
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "ternary-operator",
+      "source_pdfs": [
+        {
+          "file": "notes/L4_ Conditional Structures.pdf",
+          "pages": [
+            3,
+            4,
+            5,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "switch-selection",
+      "source_pdfs": [
+        {
+          "file": "notes/L4_ Conditional Structures.pdf",
+          "pages": [
+            5,
+            6,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            6
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "workflow-projects",
+      "source_pdfs": [
+        {
+          "file": "notes/ALgorithm_BSIT1-1.pdf",
+          "pages": [
+            17,
+            18,
+            19,
+            34
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            5,
+            6
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/L2_ Anatomy of Basic Programming.pdf",
+          "pages": [
+            39,
+            49,
+            52,
+            54
+          ],
+          "basis": "lecture_notes"
+        }
+      ]
+    },
+    {
+      "id": "iteration-loops",
+      "source_pdfs": [
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            7
+          ],
+          "basis": "syllabus_preview"
+        }
+      ]
+    },
+    {
+      "id": "strings-and-characters",
+      "source_pdfs": [
+        {
+          "file": "notes/L2_ Anatomy of Basic Programming.pdf",
+          "pages": [
+            35
+          ],
+          "basis": "lecture_notes"
+        },
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            7
+          ],
+          "basis": "syllabus_preview"
+        }
+      ]
+    },
+    {
+      "id": "arrays-and-search",
+      "source_pdfs": [
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            8
+          ],
+          "basis": "syllabus_preview"
+        }
+      ]
+    },
+    {
+      "id": "methods-and-parameters",
+      "source_pdfs": [
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            8
+          ],
+          "basis": "syllabus_preview"
+        }
+      ]
+    },
+    {
+      "id": "arraylist-collections",
+      "source_pdfs": [
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            8
+          ],
+          "basis": "syllabus_preview"
+        }
+      ]
+    },
+    {
+      "id": "exception-handling",
+      "source_pdfs": [
+        {
+          "file": "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+          "pages": [
+            9
+          ],
+          "basis": "syllabus_preview"
+        }
+      ]
+    }
+  ],
+  "source_files": [
+    "notes/2026_CC2_Fundamentals-of-Programming.pdf",
+    "notes/ALgorithm_BSIT1-1.pdf",
+    "notes/L2_ Anatomy of Basic Programming.pdf",
+    "notes/L3_ Basic Java Operators.pdf",
+    "notes/L4_ Conditional Structures.pdf",
+    "notes/Login (1).java",
+    "notes/Menu.java",
+    "notes/MovieVerifier (1).java",
+    "notes/Ticket.java"
+  ],
+  "id": "java-foundations-through-class-notes"
+}

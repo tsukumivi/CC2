@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "Wrong prediction and history do not expose the reference answer.",
+    "Fresh retry survives delayed autosave before_request, keeps independent state, and survives reload.",
+    "Fresh retry survives delayed autosave after_response, keeps independent state, and survives reload.",
+    "New-generation submission records an actual independent pass."
+  ],
+  "page_errors": []
+}

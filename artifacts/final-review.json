@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "reviewer": "hermes.review \u2014 primary session",
+  "mode": "User-authorized primary self-review after inline fixes; no new agent",
+  "scope": "Only the two Luna findings, their regression coverage and release packaging",
+  "luna_initial_verdict_passed": false,
+  "later_luna_approval_claimed": false,
+  "findings_resolved": [
+    "Automatic reference-answer disclosure in feedback, replay and history",
+    "Stale draft saves/replies after fresh retry"
+  ],
+  "security_concerns": [],
+  "logic_errors": [],
+  "backend_tests": 48,
+  "targeted_browser_checks": 4,
+  "reviewed_invariants": [
+    "Reference answers are returned only by the assistance-marking reference route, not assessment/replay/history",
+    "Old draft and request hashes migrate as generation zero without deleting saved history",
+    "SQLite BEGIN IMMEDIATE serializes generation validation, assistance merge, save and retry",
+    "Retry advances its generation and clears the draft in one transaction",
+    "Old-generation saves/submissions fail with HTTP 409; assessment commit validates generation again",
+    "Idempotent replays do not create a second attempt or reveal legacy reference keys",
+    "Frontend initializes from server generation, adopts retry generation and ignores old-generation save replies",
+    "Both delayed-request and delayed-successful-response races were exercised in real Chrome"
+  ],
+  "source_sha256": {
+    "backend/learning.py": "e7ac9101b55e910e137fc4833b80a39f78c9976ce352c1f14a646a24e45d1d3c",
+    "frontend/src/components/TaskPanel.tsx": "49f0d4b27e7934485f43c9892b4ebf651429d3e347da13deb6a5e42c0f873344",
+    "frontend/src/studioTypes.ts": "8e104abe5c9e40a09e05258540a42514ce118ecc13faa39d1c82b320757a92c2",
+    "frontend/src/learning.ts": "760146bf40bc6826f633e650fcfa4ef5964a0478e194495dd04143528aa477b3"
+  },
+  "evidence": [
+    "artifacts/pytest-results.xml",
+    "artifacts/review-fixes-browser.json",
+    "artifacts/browser-qa/results.json",
+    "artifacts/portability-verification.json"
+  ],
+  "limitations": [
+    "Primary self-review, not independent approval of the fixes",
+    "Trusted local Java is not an OS sandbox",
+    "Human learning effectiveness remains unmeasured"
+  ]
+}
