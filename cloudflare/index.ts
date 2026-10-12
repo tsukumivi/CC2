@@ -572,11 +572,15 @@ async function routeApi(request: Request, env: Env): Promise<Response> {
     for (const concept of immutableCourse.concepts as Concept[]) for (const ref of concept.source_pdfs ?? []) allowed.add(String(ref.file).split(/[\\/]/).at(-1))
     if (!allowed.has(filename) || !filename.toLowerCase().endsWith(".pdf")) throw new ApiError(404, "That source PDF is not part of this course.")
     const sourceUrl = `https://raw.githubusercontent.com/tsukumivi/CC2/main/notes/${encodeURIComponent(filename)}`
-    return withCookie(new Response(null, { status: 302, headers: {
-      "location": sourceUrl,
-      "cache-control": "public, max-age=86400",
-      "x-content-type-options": "nosniff",
-    } }), guest.cookie)
+    const range = request.headers.get("range")
+    const upstream = await fetch(sourceUrl, range ? { headers: { range } } : undefined)
+    if (!upstream.ok && upstream.status !== 206) throw new ApiError(upstream.status === 404 ? 404 : 502, "The public source PDF is temporarily unavailable from GitHub.")
+    const headers = new Headers(upstream.headers)
+    headers.set("content-type", "application/pdf")
+    headers.set("content-disposition", `inline; filename*=UTF-8''${encodeURIComponent(filename)}`)
+    headers.set("x-content-type-options", "nosniff")
+    headers.set("cache-control", "public, max-age=3600")
+    return withCookie(new Response(upstream.body, { status: upstream.status, headers }), guest.cookie)
   }
   return withCookie(json({ detail: "Endpoint not found." }, 404), guest.cookie)
 }

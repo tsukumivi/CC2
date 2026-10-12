@@ -21,7 +21,7 @@ The authored course has **8 stages, 42 lessons (41 core), 136 tasks and 8 option
 
 ## Optional public website
 
-For a no-login public pilot with a host-provided `workers.dev` URL and isolated Java execution, follow [the Cloudflare deployment guide](cloudflare/DEPLOY.md). That setup uses Cloudflare Workers Static Assets and D1 on their Free plans, links the five public class PDFs from this repository, and runs Java through SandboxAPI Basic. The shared free runner allowance is up to 500 Java executions each month. One source PDF contains an instructor contact email; review sharing permission and that contact detail before deployment. The existing local Python/JDK workflow remains available and is still the default for the shared ZIP.
+For a no-login public pilot with a host-provided `workers.dev` URL and isolated Java execution, follow [the Cloudflare deployment guide](cloudflare/DEPLOY.md). That setup uses Cloudflare Workers Static Assets and D1 on their Free plans, streams the five public class PDFs from this repository, and runs Java through SandboxAPI Basic. The shared free runner allowance is up to 500 Java executions each month. One source PDF contains an instructor contact email; review sharing permission and that contact detail before deployment. The existing local Python/JDK workflow remains available and is still the default for the shared ZIP.
 
 ### Assessment contract
 

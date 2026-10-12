@@ -1,20 +1,20 @@
 # No-billing public pilot deployment
 
-This deployment keeps the existing local Python Studio intact. The public app runs as a Cloudflare Worker with Static Assets and D1 on the default Free plans. The Worker redirects allowlisted source-PDF links to the public `tsukumivi/CC2` GitHub repository, avoiding R2. Java code runs in SandboxAPI Basic's isolated service through RapidAPI.
+This deployment keeps the existing local Python Studio intact. The public app runs as a Cloudflare Worker with Static Assets and D1 on the default Free plans. The Worker streams allowlisted source PDFs from the public `tsukumivi/CC2` GitHub repository, avoiding R2. Java code runs in SandboxAPI Basic's isolated service through RapidAPI.
 
 ## Free-plan limits and data flow
 
 - Cloudflare Workers Free includes up to 100,000 Worker requests per day; static assets are free and unlimited. D1 Free includes up to 5 million rows read per day, 100,000 rows written per day, and 5 GB of stored data. Keep the account on Workers Free. Free-plan quota exhaustion causes requests to fail or be limited rather than automatically upgrading this app to a paid plan. Review the current [Workers pricing](https://developers.cloudflare.com/workers/platform/pricing/), [Workers limits](https://developers.cloudflare.com/workers/platform/limits/), and [D1 pricing](https://developers.cloudflare.com/d1/platform/pricing/) before inviting a large audience.
 - The hosted Java compiler sends source code, standard input and saved project data used by **Run** to SandboxAPI through RapidAPI. **Check** sends source and the task's declared test inputs. SandboxAPI Basic is $0, allows 500 executions per month and advertises no credit card requirement. Its Java service runs in a per-request gVisor sandbox. Failed compilations and timeouts count. When the shared allowance is exhausted, lessons, review and saved work continue, but Run/Check pauses until the monthly reset. Review [SandboxAPI plans](https://sandboxapi.dev/pricing/) and [execution documentation](https://sandboxapi.dev/docs/).
 - Learner progress, drafts, attempts, submitted code, saved Java projects and project data files are stored in Cloudflare D1 under a random, HTTP-only cookie. No account, name or email is collected by the app. Guest work is private to that browser profile and does not sync between devices. Project Shelf provides JSON export and erase controls. Cookie removal loses access; guest workspaces are automatically deleted after 90 days without a visit.
-- The five class-note PDFs are public files in the `tsukumivi/CC2` repository's `main` branch and are served by GitHub's raw file host. Anyone who can open this site can also open or download those PDFs from GitHub. One PDF contains instructor contact information. Review sharing permission and personal details before sharing the public URL.
+- The five class-note PDFs are public files in the `tsukumivi/CC2` repository's `main` branch. The Worker streams the selected PDF from GitHub's raw file host so browsers can display it as a PDF; anyone who can open this site can also open or download those PDFs from GitHub. One PDF contains instructor contact information. Review sharing permission and personal details before sharing the public URL.
 - Each guest workspace can keep up to 200 assessment attempts and 20 saved projects. Export or erase a workspace to start fresh.
 - This is a pilot without an availability guarantee. Quota limits, service behavior and provider policies can change.
 
 ## One-time setup
 
 1. Sign in to Cloudflare and use the default Workers Free plan. Set a `workers.dev` subdomain if the account asks. Do not select Workers Paid or activate R2.
-2. Confirm the public `tsukumivi/CC2` repository contains all five PDFs under `notes/` on its `main` branch. The source route redirects to those filenames. The repository and PDFs are public.
+2. Confirm the public `tsukumivi/CC2` repository contains all five PDFs under `notes/` on its `main` branch. The source route streams those files from the public raw-file host. The repository and PDFs are public.
 3. Create or use the free SandboxAPI Basic plan through RapidAPI. Keep the API key private; do not paste it into source files or chat. The service's published Basic allowance is 500 executions per month without a credit card.
 4. Install Node.js 22+ and pnpm, then from the project root run:
 
